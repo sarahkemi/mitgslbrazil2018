@@ -17,7 +17,7 @@
 #      hint: https://stackoverflow.com/questions/306400/how-to-randomly-select-an-item-from-a-list
 # 5) Lastly, create a new function that uses a for loop to write "VAI BRAZIL!!" 100 times when
 # the user mentions the words "futebol", "football", or "world cup"
-#
+
 # Challenge: If you get through these tasks rather quickly, expand on this chat bot! Make it more
 # interactive. For example, connect to an API to get cool data, or load in a JSON file of text to
 # generate responses from. Be creative!
@@ -36,7 +36,7 @@ class ChatBot():
         pass
     def random(self):
         #make a list of phrases here
-        phrases = ["my favorite number is 3.14", "my favorite is black - like my soul", "my favorite food is RAM", "The sky is blue", "Every day can be a good day"]
+        phrases = ["my favorite number is 3.14", "my favorite color is black - like my soul", "my favorite food is RAM", "The sky is blue", "Every day can be a good day"]
         # import random and add random.choice function commented here
         pass
 
