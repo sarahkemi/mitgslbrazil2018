@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request
-
+from flask import render_template
 
 app = Flask(__name__)
 
@@ -10,7 +10,7 @@ def hello_world():
     return 'Hello, World!'
 
 
-@app.route('recipe')
+@app.route('/recipe')
 def recipes():
     recipe_title = 'pizza'
     return render_template('recipe.html', title=recipe_title)
