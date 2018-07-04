@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CaipirinhaRecipe</title>
+	<title>{{ title }}</title>
 	<link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style.css') }}>
 </head>
 <body>
-	<h1>Caipirinha</h1>
-	<p >Want a fun way to celebrate the World Cup with the national cocktail? Make Caipirinha, made with lime, sugar, ice, and cachaça, which is a sugarcane-derived product. The alcohol results from the fermentation of the sugarcane juice that is distilled. Here is the recipe:</p>
+	<h1>{{ title }}</h1>
+	<p >{{ description }}</p>
 	<div class = "directions">
 		<span id = "dir">Directions</span>
-		<ol>
-			<li>In a small glass, add lime and honey.</li>
-			<li>Using a pestle or a wooden spoon gently mash the lime and the honey together. Do not squeeze the lime too much.</li>
-			<li>Add ice and the cachaça. Enjoy!</li>
-		</ol>
+		{{ directions }}
 	</div>
 </body>
 </html>
