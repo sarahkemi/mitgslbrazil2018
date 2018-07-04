@@ -1,0 +1,16 @@
+body {
+	background-color: #759188
+}
+
+.ingredients{
+	padding: 25px;
+	background-color: #00A865
+    
+}
+.directions{
+	padding: 25px;
+	background-color: #00BA70
+}
+#ing, #dir{
+	color: #A80043
+}
