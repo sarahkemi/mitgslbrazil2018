@@ -12,7 +12,7 @@ for board in boards:
     print 'name:' + board['name']
     print '\n'
 
-# second, I try to get all the lists from my board using the board id i found the codev above
+# second, I try to get all the lists from my board using the board id i found the code above
 
 bid = ''
 list_endpoint = 'https://api.trello.com/1/boards/{}/lists'.format(bid)
