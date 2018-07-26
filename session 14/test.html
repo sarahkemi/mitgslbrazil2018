@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="#">
+	<meta name="viewport" content="width=device-width, initia-scale=1.0">
+
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+
+	<style type="text/css">
+		#contain {
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+		#contain > div{
+			background-color: #e8a9e4;
+			font-size: 20px;
+			margin: 20px;
+			padding: 20px;
+			width: 200px;
+		}
+		@media print {
+			.screen-only {
+				display: none;
+			}
+		}
+		@media (min-width: 500px){
+			.size-dependent {
+				color: blue;
+			}
+		}
+		@media (max-width: 499px){
+			.size-dependent {
+				color: red;
+			}
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="container" id="contain">
+		<div>Flexbox1</div>
+		<div>Flexbox2 </div>
+		<div>Flexbox3</div>
+		<div>Flexbox4</div>
+
+	</div>
+	<div class="container">
+	<div>
+		<p>Just a test </p>
+		<p class="size-dependent">Color changes based on screen size</p>
+		<p class="screen-only">Viewed only on screen</p>
+		
+	</div>
+
+
+
+</body>
+</html>
